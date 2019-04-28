@@ -45,6 +45,7 @@ object Sets extends App {
   val set = new Sets
 
   val re = set.singltonSet(1)
+
   private val result: Boolean = set.contains(x => x < 0, 5)
   println(result)
 
