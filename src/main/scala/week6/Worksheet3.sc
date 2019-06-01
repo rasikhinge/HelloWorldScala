@@ -33,4 +33,8 @@ for {
   j1 <- 4 to 6
 } yield (i,j1)
 
-1 :: List()
+val lst = 1 :: List()
+2 ::lst
+println(lst)
+
+

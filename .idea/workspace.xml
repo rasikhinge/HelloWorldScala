@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e086019-6f63-44ef-9d69-b094cb05f8a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/week6/Worksheet3.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/week6/Worksheet3.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/helloworldscala_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/helloworldscala_2.12/0.1/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/helloworldscala_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/helloworldscala_2.12/0.1/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-helloworldscala_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-helloworldscala_2.12-compile-internal.xml" afterDir="false" />
@@ -71,8 +72,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/week6/Worksheet3.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="-4">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/week6/Worksheet4.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -86,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/week6/PracExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="882">
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -166,8 +176,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/week6/NQueens.scala" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/scala/week6/Polynomials.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/week6/Worksheet3.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/week6/PracExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/week6/Worksheet3.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/week6/Worksheet4.sc" />
       </list>
     </option>
   </component>
@@ -183,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -215,14 +227,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="week5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorldScala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorldScala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="week6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,12 +237,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556702592913" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hello-world-lambda" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559380528029" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -399,9 +402,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10590015" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11043873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -416,12 +418,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4977307" weight="0.4516129" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.49924356" visible="true" weight="0.3062606" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" weight="0.3062606" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.3293718" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.3282572" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.38539898" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" weight="0.3147208" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" weight="0.18443316" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -775,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/week6/Worksheet3.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="-4">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -789,8 +791,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/week6/PracExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        <state relative-caret-position="882">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/week6/Worksheet4.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="49" />
         </state>
       </provider>
     </entry>
