@@ -58,6 +58,6 @@ object PracExample {
     val result3 = p.wordsGroupByNumCode("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
     println(result3)
     val result4 = p.digitsToWords("24", result3)
-    rintln(result4)
+    print(result4)
   }
 }
